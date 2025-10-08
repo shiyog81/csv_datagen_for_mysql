@@ -6,7 +6,8 @@ using this perl script, we can generate a large csv file for mysql tables.
 
 steps to runn this script
 1. connect to mysql server and create database test and table emp
-   ```python
+
+```python
 CREATE TABLE emp(
   empno BIGINT PRIMARY KEY AUTO_INCREMENT,
   first_name VARCHAR(30) NOT NULL,

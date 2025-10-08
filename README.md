@@ -22,7 +22,8 @@ CREATE TABLE emp(
   comm DECIMAL(9,2)
  );
 ```
-
+2. run the script with the command line options
+   
 ```python
 [root@ol2 csv_datagen_for_mysql]# perl csv_data_generator.pl --debug 1 --host 192.168.1.22 --port 3306 --user dba --password insT4Win# --database test --tabname emp --rows 2 --start 21 --datafile data1.csv
 

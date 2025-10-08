@@ -133,5 +133,18 @@ datafile generated successfully
 data file size = 239 bytes
 ```
 
+3. the script generated data1.csv like this
+   
+```python
+[root@ol2 csv_datagen_for_mysql]# cat data1.csv 
+21,"Adishree","Jyotishmati","F","7964582640","2018-1-24","2000-10-30","accounts manager","03","5238119.37","0846986.70","8910478.23"
+22,"Satyaki","Deepashikha","F","8693896665","1990-6-3","2010-9-26","accounts manager","73","9209135.74","1680648.55","8874744.72"
+```
+
+4. use this option to generate 100 rows starts from 1
+
+```python
+perl csv_data_generator.pl --debug 1 --host 192.168.1.22 --port 3306 --user dba --password insT4Win# --database test --tabname emp --rows 100 --start 1 --datafile data1.csv
+```
 
 

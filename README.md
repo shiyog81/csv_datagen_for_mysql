@@ -1,5 +1,6 @@
 # csv_datagen_for_mysql
-CSV data file generator for mysql tables
+
+## CSV data file generator for mysql tables
 
 using this perl script, we can generate a large csv file for mysql tables.
 

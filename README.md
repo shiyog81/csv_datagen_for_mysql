@@ -24,7 +24,7 @@ CREATE TABLE emp(
 
 or
 
- CREATE TABLE emp1(
+ CREATE TABLE emp(
   empno BIGINT PRIMARY KEY AUTO_INCREMENT,
   first_name VARCHAR(30) NOT NULL,
   sex CHAR(1),

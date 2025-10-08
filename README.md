@@ -21,6 +21,19 @@ CREATE TABLE emp(
   bonus DECIMAL(9,2),
   comm DECIMAL(9,2)
  );
+
+or
+
+ CREATE TABLE emp1(
+  empno BIGINT PRIMARY KEY AUTO_INCREMENT,
+  first_name VARCHAR(30) NOT NULL,
+  sex CHAR(1),
+  dob date,
+  hiredate date,
+  job VARCHAR(30),
+  dept CHAR(2)
+ );
+
 ```
 2. run the script with the command line options
    

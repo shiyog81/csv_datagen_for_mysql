@@ -6,6 +6,7 @@ using this perl script, we can generate a large csv file for mysql tables.
 
 How to run this script
 
+```python
 [root@ol2 csv_datagen_for_mysql]# perl csv_data_generator.pl --debug 1 --host 192.168.1.22 --port 3306 --user dba --password insT4Win# --database test --tabname emp --rows 2 --start 21 --datafile data1.csv
 
 *******************************************************
@@ -112,6 +113,7 @@ comm,decimal,decimal(9,2),
 datafile generated successfully
 
 data file size = 239 bytes
+```
 
 
 
